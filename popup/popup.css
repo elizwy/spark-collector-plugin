@@ -1,0 +1,103 @@
+.container {
+  width: 400px;
+  padding: 16px;
+}
+
+.filters {
+  margin: 16px 0;
+  display: flex;
+  gap: 8px;
+}
+
+#search, #tagFilter {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.snippet {
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.snippet-content {
+  margin: 8px 0;
+}
+
+.snippet-meta {
+  font-size: 12px;
+  color: #666;
+}
+
+.tags {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.tag {
+  background: #e0e0e0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.date-group {
+  margin-bottom: 24px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.date-header {
+  background: #f5f5f5;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-header h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.delete-date {
+  padding: 4px 8px;
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-date:hover {
+  background: #ff7875;
+}
+
+.danger-button {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.danger-button:hover {
+  background: #ff7875;
+}
+
+.snippet {
+  border-bottom: 1px solid #eee;
+  margin: 0;
+  padding: 16px;
+}
+
+.snippet:last-child {
+  border-bottom: none;
+} 

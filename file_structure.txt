@@ -1,0 +1,8 @@
+inspiration-collector/
+  ├── manifest.json
+  ├── popup/
+  │   ├── popup.html
+  │   ├── popup.css
+  │   └── popup.js
+  ├── background.js
+  └── content.js 
